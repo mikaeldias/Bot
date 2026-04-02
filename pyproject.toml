@@ -1,0 +1,10 @@
+[project]
+name = "bot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "langchain[google-genai]>=1.2.14",
+    "rich>=14.3.3",
+]
